@@ -1,3 +1,3 @@
 # cluster-config-gitops
 
-Note: All subscriptions are configured to `Manual` upgrades.
+Note: All subscriptions are configured to `Automatic` upgrades.
