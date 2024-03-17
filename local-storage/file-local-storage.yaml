@@ -1,7 +1,7 @@
 apiVersion: local.storage.openshift.io/v1
 kind: LocalVolume
 metadata:
-  name: block-local-storage
+  name: file-local-storage
   namespace: openshift-local-storage
 spec:
   logLevel: Normal
@@ -19,5 +19,5 @@ spec:
     - devicePaths:
         - /dev/sda
       fsType: ext4
-      storageClassName: block-local-storage
-      volumeMode: Block
+      storageClassName: file-local-storage
+      volumeMode: Filesystem
