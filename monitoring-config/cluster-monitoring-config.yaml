@@ -9,7 +9,7 @@ data:
     prometheusK8s:
       volumeClaimTemplate:
         spec:
-          storageClassName: odf-storage-class
+          storageClassName: ceph-filesystem-storage-class
           volumeMode: Filesystem
           resources:
             requests:
