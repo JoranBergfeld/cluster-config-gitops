@@ -9,7 +9,7 @@ data:
     prometheusK8s:
       volumeClaimTemplate:
         spec:
-          storageClassName: file-local-storage
+          storageClassName: odf-storage-class
           volumeMode: Filesystem
           resources:
             requests:
